@@ -13,10 +13,12 @@
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
     "changeset": "changeset",
     "version-packages": "changeset version",
-    "release": "turbo run build --filter=docs^... && changeset publish"
+    "release": "turbo run build --filter=docs^... && changeset publish",
+    "build-storybook": "turbo run build --filter=docs^..."
   },
   "devDependencies": {
     "@changesets/cli": "^2.22.0",
+    "chromatic": "^6.7.2",
     "eslint": "^8.15.0",
     "eslint-config-acme": "*",
     "prettier": "^2.5.1",
