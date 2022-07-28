@@ -6,9 +6,9 @@ export interface ButtonProps {
 }
 
 export function Button(props: ButtonProps) {
-  const theme = themeTwo;
+  const theme = themeOne;
   return (
-    <button style={{ color: theme.primary, background: theme.secondary }}>
+    <button style={{ color: theme.primary, background: "rebeccapurple" }}>
       {props.children}
     </button>
   );
