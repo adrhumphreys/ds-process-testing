@@ -14,7 +14,7 @@
     "changeset": "changeset",
     "version-packages": "changeset version",
     "release": "turbo run build --filter=docs^... && changeset publish",
-    "build-storybook": "turbo run build --filter=docs^..."
+    "build-storybook": "turbo run build --filter=...@acme/docs"
   },
   "devDependencies": {
     "@changesets/cli": "^2.22.0",
